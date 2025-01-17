@@ -14,9 +14,8 @@ it create a fs.db file that you can rename as your NameOfDisk.db, and store wher
 Use search.py to search for files that meet several critera, I prefer to search on an interval of date, using the modified date. 
 You can get help with -h:
 
-''''
+```console
 > python3 printdb.py -h
-
 usage: printdb.py [-h] [-s {0,1,2}] [-o OFFSET] [-t TYPE]
                   start end name [filter ...]
 positional arguments:
@@ -31,7 +30,7 @@ options:
   -o OFFSET, --offset OFFSET
                         year offset
   -t TYPE, --type TYPE  file type
-''''
+```
 
 So, for example:
 
