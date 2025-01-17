@@ -34,9 +34,9 @@ options:
 
 So, for example:
 
-> python3 search.py 01/03/2024 04/05/2024
+> python3 search.py 01/03/2024 04/05/2024 disk.db 
 
-simply print all file (last modified) between the first of March 2024, and 04 May. 
+simply print all file in 'disk' (last modified) between the first of March 2024, and 04 May. 
 
 The sorting can be changed with -s, with 1 = sort by path, and 2 = sort by increasing size.
 
